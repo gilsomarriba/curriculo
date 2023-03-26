@@ -39,7 +39,7 @@ body{
   .foto{
     border-radius: 150px;
     margin-top: 50%;
-    margin-left: -20%;
+    margin-left: -10%;
     box-shadow: -2px 2px 5px rgb(95, 95, 95);
 
   }
@@ -79,8 +79,8 @@ body{
   .div-dados{
 
     /*border: solid 2px gray;*/
-    display: grid;
-	grid-template-columns: 25% 25% 25% 25% ;
+    display: inline-flex;
+    flex-wrap:wrap;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
