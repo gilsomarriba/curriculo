@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Curriculo</title>
+</head>
+<body>
+
+    <div class="secao1">
+            <main class="main-curriculo">
+                <div class="div-nome">
+                    <p class="nome">Gil Rodrigues</p>
+                </div>
+
+                <div class="div-profissao">
+                    <p class="profissao">TÉCNICO DE INFORMÁTICA</p>
+                </div>
+                
+                <div class="div-dados">  
+                    <div class="dados">
+                        <img class="img-dados" src="img/phone.svg">
+                        <p class="texto-dados"> Telefone:(31)972374978</p>
+                    </div>
+                    <div class="dados">
+                        <img class="img-dados" src="img/email.svg">
+                        <p class="texto-dados"> gil.somarriba@gmail.com</p>
+                    </div>
+                    <div class="dados">
+                        <img class="img-dados" src="img/pcd.svg">
+                        <p class="texto-dados"> PCD - Surdez Unilateral</p>
+                    </div>
+                    <div class="dados">
+                        <img class="img-dados" src="img/casa.svg">
+                        <p class="texto-dados2"> Rua Mariana,100 - Alphaville Vespasiano/MG</p>
+                    </div>
+                    
+                </div>
+
+                
+                <button class="btns" onclick="jsFormacao()">Formação</button>
+
+                <div style="display: none;" id="js-formacao" class="div-formacao">
+                   
+
+                    <div class="formacao">
+                        <p class="texto-formacao">
+                            Magnum Agostiniano
+                            <br>Ensino Fundamental
+                            <br> Início em 01/2007 
+                            <br>Conclusão em 12/2013
+                        </p>
+                    </div>
+                    <div class="formacao">
+                        <p class="texto-formacao">
+                            Colégio COTEMIG<br>
+                            Técnico de Informática
+                            <br> Início em 01/2014 
+                            <br>Conclusão em 12/2016
+                        </p>
+                    </div>
+
+                    <div class="formacao">
+                        <p class="texto-formacao">
+                            UniBH<br>
+                            Técnico de Informática
+                            <br> Início em 01/2019 
+                            <br> Trancado em 06/2019
+                        </p>
+                    </div>
+
+                    <div class="formacao">
+                        <p class="texto-formacao">
+                            UniBH<br>
+                            Arquitetura e Urbanismo
+                            <br> Início em 01/2018 
+                            <br> Trancado em 01/2019
+                        </p>
+                    </div>
+
+                </div>
+                <button class="btns" onclick="jsExpeciencias()">Experiências</button>
+                <div style="display: none;" id="js-experiencias" class="div-experiencias">
+                    <div class="texto-experiencias">
+                        <p><span class="bold">01/2015 - 12/2015:</span> BRAZILCONNECTUSA
+                        <br>Área de atuação: Suporte Técnico e Empacotador
+                        <br>Atividade: Emprego Informal
+                        <br>Duração: 12 meses
+                        </p>
+                    </div>
+                    <div class="texto-experiencias">
+                        <p><span class="bold">05/2017 - 12/2018:</span> TAGPLUS
+                        <br>Área de atuação: Suporte Técnico 
+                        <br>Atividade: Estágio
+                        <br>Duração: 12 meses
+                        </p>
+                    </div>
+                    <div class="texto-experiencias">
+                        <p><span class="bold">06/2019 - 09/2020:</span> TEKNISA
+                        <br>Área de atuação: Suporte Técnico Exclusivo HCM/SM/CRM
+                        <br>Atividade: CLT
+                        <br>Duração: 15 meses
+                        </p>
+                    </div>
+                    <div class="texto-experiencias">
+                        <p><span class="bold">11/2021 - 12/2021:</span> OFFICYNA SOLUÇÕES 
+                        <br>Área de atuação: Infraestrutura de Redes
+                        <br>Atividade: Emprego Informal
+                        <br>Duração: 1 mês 
+                        </p>
+                    </div>
+                    <div class="texto-experiencias">
+                        <p><span class="bold">01/2022 - 10/2022:</span> AMPLA
+                        <br>Área de atuação: Têcnico em Informática
+                        <br>Atividade: CLT
+                        <br>Duração: 10 meses
+                        </p>
+                    </div>
+                </div>
+                <button class="btns" onclick="jsConhecimentos()">Conhecimentos</button>
+                <div style="display: none;" id="js-conhecimentos" class="div-conhecimentos">
+                    <li class="texto-conhecimento">Atendimento ao cliente</li>
+                    <li class="texto-conhecimento">Gestão de almoxarifado</li>
+                    <li class="texto-conhecimento">Gestão de ERP (faturamento, estoque, financeiro, notas fiscais, HCM)</li>
+                    <li class="texto-conhecimento">Gestão de site de vendas online. (Atualizações de produtos)</li>
+                    <li class="texto-conhecimento">Elaboração e implantação de infraestrutura de Redes</li>
+                    <li class="texto-conhecimento">Manutenção de Computadores e PBX</li>
+                </div>
+
+                <button class="btns" onclick="jsLinguagens()">Linguagens</button>
+                <div style="display: none;" id="js-linguagens" class="div-linguagens">
+                    <div class="div-progress-bar" >
+                        <p class="texto-linguagens">JS</p>
+                        <div class="progress-bar-js" ></div>
+
+                    </div>
+                    <div class="div-progress-bar" >
+                        <p class="texto-linguagens">HTML</p>
+                        <div class="progress-bar-html" ></div>
+
+                    </div>
+                    <div class="div-progress-bar" >
+                        <p class="texto-linguagens">SQL</p>
+                        <div class="progress-bar-sql" ></div>
+
+                    </div>
+                    <div class="div-progress-bar" >
+                        <p class="texto-linguagens">C#</p>
+                        <div class="progress-bar-c" ></div>
+
+                    </div>
+
+                </div>
+
+                <button class="btns" onclick="jsCursos()">Cursos</button>
+                <div style="display: none;" id="js-cursos" class="div-cursos">
+                    <li class="texto-cursos">Curso de Sketchup do Nível Básico ao Avançado. 12hrs</li>
+                    <li class="texto-cursos">Curso de Promob do Nível Básico ao Avançado. 12hrs</li>
+                    <li class="texto-cursos">Curso de WebDesigner: Dreamweaver, Corel Draw, Photoshop,Flash. 70h</li>
+                    <li class="texto-cursos">Curso de Inglês Níveis Básico ao Avançado. 4 anos</li>
+                    <li class="texto-cursos">Curso De Excelência em Vendas - SENAC.</li>
+
+                </div>
+
+
+                <button class="btns" onclick="jsRealizacoes()">Realizações</button>
+                <div style="display: none;" id="js-realizacoes" class="div-realizacoes">
+                    <li class="texto-realizacoes">Projeto Vizinhança Segura, selecionado para TECNOFEIRA COTEMIG 
+                        2016 e apresentado na Feira Internacional de Negócios, Inovação e Tecnologia
+                         – FINIT - de 9 a 13 de novembro de 2016, no EXPOMINAS-BH.
+                    </li>
+                </div>
+        
+            </main> 
+        </div>
+        
+      <div class="secao2">
+
+        <img class="foto" src="img/Gil.png">
+
+      </div>
+    
+
+    
+</body>
+</html>

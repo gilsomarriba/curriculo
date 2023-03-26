@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Vollkorn&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    
+    
+}
+
+body{
+    display: flex;
+}
+
+.secao1 {
+    background-color: #ffffff;
+    width: 70%;
+    margin-left: 2%;
+    
+    
+  }
+  
+  .secao2 {
+    background-color: #5e5e5e;
+    background-image:url("img/background.svg") ;
+    width: 30%;
+    height: 100vh;
+
+  }
+
+  .foto{
+    border-radius: 150px;
+    margin-top: 50%;
+    margin-left: -20%;
+    box-shadow: -2px 2px 5px rgb(95, 95, 95);
+
+  }
+
+  .main-curriculo{
+
+    /*border: solid 2px gray;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 5px;
+    box-shadow: 2px 2px 5px grey;
+    
+
+
+  }
+
+
+  .nome{
+    font-size: 70px;
+    font-weight: 400;
+    font-family: 'Vollkorn', serif;
+    padding-left: 15px;
+  }
+
+  .div-profissao{
+
+   /*border: solid 2px gray;*/
+  }
+
+  .profissao{
+    font-size: 30px;
+    font-family: 'Vollkorn', serif;
+    padding-left: 15px;
+
+  }
+  .div-dados{
+
+    /*border: solid 2px gray;*/
+    display: grid;
+	grid-template-columns: 25% 25% 25% 25% ;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+  }
+  .dados{
+    display: flex;
+   /*border: solid 2px gray;*/
+  }
+  
+  .img-dados{
+    height: 30px;
+    width: 30px;
+  }
+
+  .texto-dados{
+
+    font-size: 15px;
+    padding-top: 2%;
+    
+  }
+
+  .btns{
+    
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: 0;
+    border: 0;
+    padding: 1rem;
+
+  }
+
+  .btns:before{
+    background-color: #000000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    margin-right: 10px;
+    -webkit-transition: all .42s cubic-bezier(.25,.8,.25,1);
+    transition: all .42s cubic-bezier(.25,.8,.25,1);
+    width: 0;
+
+  }
+
+  .btns:hover:before {
+    background-color: #000000;
+    width: 3rem;
+  }
+
+  
+
+  #js-formacao{
+    /*border: solid 2px gray;*/
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    
+
+  }
+
+  .texto-formacao{
+    /*border: solid 2px gray;*/
+    height: 100%;
+    width: 200px;
+    
+    
+  }
+
+    .bold{
+        font-weight: bold;
+    }
+  #js-experiencias{
+
+    /*border: solid 2px gray;*/
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px;
+    padding: 5px;
+
+  }
+
+  .texto-experiencias{
+
+    /*border: solid 2px gray;*/
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+  }
+
+  .div-conhecimentos{
+
+    /*border: solid 2px gray;*/
+  }
+
+  .texto-conhecimento{
+    padding-left: 10px;
+  }
+
+  .div-cursos{
+    /*border: solid 2px gray;*/
+    padding-left: 10px;
+    font-size: 20px;
+    
+    }
+
+
+    .div-realizacoes{
+        font-size: 20px;
+        font-weight: 600;
+
+    }
+
+  .div-progress-bar{
+    
+    display: flex;
+    box-shadow: 2px 2px 3px  grey;
+    width: 100%;
+    margin: 10px;
+
+
+  }
+  .texto-linguagens{
+    
+    font-size: 30px;
+    padding-left: 10px;
+    width: 20%;
+    min-width: 85px ;
+   
+
+    }
+
+    /* JAVA SCRIPT */
+  .progress-bar-js{
+    display: flex;
+    margin: 10px;
+    height: 20px;
+    width: 60%;
+    background-color: #ffffff;
+    /* pseudo-elementos precisam de um
+      conteúdo para terem altura.
+      Como não teremos conteúdo no nosso
+      pseudo-elemento, utilizar
+      "display: flex" o força a
+      ter a altura do elemento pai.
+      */
+    
+  }
+
+  .progress-bar-js::before{
+    content: "";
+    /* Por enquanto colocamos
+      uma largura e uma cor
+      com valores fixos
+      */
+    width: 70%;
+    background-color: rgb(46, 245, 46);
+  }
+        /* HTML */
+  .progress-bar-html{
+    display: flex;
+    margin: 10px;
+    height: 20px;
+    width: 60%;
+    background-color: #ffffff;
+    /* pseudo-elementos precisam de um
+      conteúdo para terem altura.
+      Como não teremos conteúdo no nosso
+      pseudo-elemento, utilizar
+      "display: flex" o força a
+      ter a altura do elemento pai.
+      */
+    
+  }
+
+  .progress-bar-html::before{
+    content: "";
+    /* Por enquanto colocamos
+      uma largura e uma cor
+      com valores fixos
+      */
+    width: 80%;
+    background-color: rgb(46, 245, 46);
+  }
+    /* SQL */
+  .progress-bar-sql{
+    display: flex;
+    margin: 10px;
+    height: 20px;
+    width: 60%;
+    background-color: #ffffff;
+    /* pseudo-elementos precisam de um
+      conteúdo para terem altura.
+      Como não teremos conteúdo no nosso
+      pseudo-elemento, utilizar
+      "display: flex" o força a
+      ter a altura do elemento pai.
+      */
+    
+  }
+
+  .progress-bar-sql::before{
+    content: "";
+    /* Por enquanto colocamos
+      uma largura e uma cor
+      com valores fixos
+      */
+    width: 50%;
+    background-color: rgb(208, 245, 46);
+  }
+
+  /* C# */
+
+  .progress-bar-c{
+    display: flex;
+    margin: 10px;
+    height: 20px;
+    width: 60%;
+    background-color: #ffffff;
+    /* pseudo-elementos precisam de um
+      conteúdo para terem altura.
+      Como não teremos conteúdo no nosso
+      pseudo-elemento, utilizar
+      "display: flex" o força a
+      ter a altura do elemento pai.
+      */
+    
+  }
+
+  .progress-bar-c::before{
+    content: "";
+    /* Por enquanto colocamos
+      uma largura e uma cor
+      com valores fixos
+      */
+    width: 30%;
+    background-color: rgb(245, 119, 46);
+  }
