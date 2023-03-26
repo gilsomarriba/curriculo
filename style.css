@@ -36,11 +36,17 @@ body{
 
   }
 
+
   .foto{
     border-radius: 150px;
-    margin-top: 50%;
+    margin-top: 30vh;
     margin-left: -10%;
     box-shadow: -2px 2px 5px rgb(95, 95, 95);
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    max-width: 30vh;
+    max-height: 30vh;
 
   }
 
